@@ -18,6 +18,7 @@ for (item of buttons) {
     } else {
       screenValue += buttonText;
       screen.value = screenValue;
+      console.log("new branch added ! ");
     }
   });
 }
